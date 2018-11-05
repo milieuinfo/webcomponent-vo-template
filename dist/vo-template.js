@@ -1,6 +1,6 @@
 import { LitElement, html } from "@polymer/lit-element/lit-element";
-import "vo-header/vo-header";
-import "vo-footer/vo-footer";
+import "vo-header/dist/vo-header.js";
+import "vo-footer/dist/vo-footer.js";
 
 /**
  * `vo-template`
