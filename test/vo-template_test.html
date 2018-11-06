@@ -51,6 +51,15 @@
 						done();
 					});
 				});
+				
+				test('bevat de vo-font webcomponent', (done) => {
+					const element = fixture('vo-template-fixture');
+					flush(() => {
+						const fontElement = element.shadowRoot.querySelector('vo-font');
+						should.exist(fontElement);
+						done();
+					});
+				});
 			});
 		</script>
 	</body>

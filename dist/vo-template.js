@@ -1,6 +1,7 @@
 import { LitElement, html } from "@polymer/lit-element/lit-element";
-import "vo-header/dist/vo-header.js";
-import "vo-footer/dist/vo-footer.js";
+import "vo-template/assets/vo-header/dist/vo-header";
+import "vo-template/assets/vo-footer/dist/vo-footer";
+import "vo-template/assets/vo-font/dist/vo-font";
 
 /**
  * `vo-template`
@@ -28,10 +29,10 @@ class VoTemplate extends LitElement {
 					padding: 0;
 					margin: 0;
 					height: 100vh;
-					position: relative;
+					font-family: Flanders Art;
 					@apply --layout-vertical;
 				}
-	
+				
 				@media print {
 					:host(.print-content-only) > vo-header {
 						display: none;
@@ -42,13 +43,9 @@ class VoTemplate extends LitElement {
 				}
 	
 				#content {
-					position: relative;
 					flex-shrink: 0;
 					flex-grow: 1;
-					padding: 0 10px 0 10px;
 					height: max-content;
-					overflow: scroll;
-					@apply --vo-template-content-style;
 				}
 		
 				#content > div {
@@ -57,7 +54,6 @@ class VoTemplate extends LitElement {
 					min-height: 100%;
 					background: white;
 					box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2) !important;
-					@apply --vo-template-content-inner-style;
 				}
 				
 				vo-footer {
@@ -65,7 +61,8 @@ class VoTemplate extends LitElement {
 				}
 			</style>
 			
-			<vo-header style="width: 100vw"></vo-header>
+			<vo-font></vo-font>
+			<vo-header></vo-header>
 	
 		    <div id="content">
 				<div>
