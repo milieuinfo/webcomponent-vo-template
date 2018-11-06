@@ -31,7 +31,12 @@ class VoTemplate extends LitElement {
 					margin: 0;
 					height: 100vh;
 					font-family: Flanders Art;
-					@apply --layout-vertical;
+					display: -ms-flexbox;
+			        display: -webkit-flex;
+			        display: flex;
+					-ms-flex-direction: column;
+			        -webkit-flex-direction: column;
+			        flex-direction: column;
 				}
 				
 				@media print {
