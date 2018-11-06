@@ -43,7 +43,6 @@ class VoTemplate extends LitElement {
 				#content {
 					flex-shrink: 0;
 					flex-grow: 1;
-					padding: 0 10px 0 10px;
 					height: max-content;
 				}
 		
