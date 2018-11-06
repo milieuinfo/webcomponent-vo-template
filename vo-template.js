@@ -1,4 +1,5 @@
 import { LitElement, html } from "./assets/@polymer/lit-element/lit-element.js";
+import './assets/@polymer/iron-flex-layout/iron-flex-layout.js';
 import "./assets/vo-header/dist/vo-header.js";
 import "./assets/vo-footer/dist/vo-footer.js";
 import "./assets/vo-font/dist/vo-font.js";
