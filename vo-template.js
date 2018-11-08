@@ -19,7 +19,7 @@ import "../../node_modules/vo-font/vo-font.js";
  *
  * @customElement
  * @polymer
- * @demo demo/index.html
+ * @demo demo/vo-template.html
  */
 class VoTemplate extends LitElement {
 	render() {
