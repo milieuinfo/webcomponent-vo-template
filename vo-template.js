@@ -1,7 +1,7 @@
-import { LitElement, html } from "./assets/@polymer/lit-element/lit-element.js";
-import "./assets/vo-header/dist/vo-header.js";
-import "./assets/vo-footer/dist/vo-footer.js";
-import "./assets/vo-font/dist/vo-font.js";
+import { LitElement, html } from "../../node_modules/vodomg-litelement/@polymer/lit-element/lit-element.js";
+import "../../node_modules/vo-header/vo-header.js";
+import "../../node_modules/vo-footer/vo-footer.js";
+import "../../node_modules/vo-font/vo-font.js";
 
 /**
  * `vo-template`

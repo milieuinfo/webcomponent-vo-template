@@ -6,13 +6,12 @@
   },
   "homepage": "https://github.com/milieuinfo/webcomponent-vo-template#readme",
   "name": "vo-template",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "directories": {
     "test": "test",
     "demo": "demo"
   },
   "devDependencies": {
-    "@0xcda7a/empathy": "0.0.9",
     "np": "3.0.4",
     "wct-browser-legacy": "1.0.2"
   },
@@ -22,13 +21,11 @@
     "build:docs": "polymer analyze dist/vo-template.js > analysis.json",
     "build:dist": "polymer build",
     "build:local": "npm run clean && bower install && npm install && npm run test && npm run build:dist && npm run build:docs",
-    "build:empathy": "empathy install",
     "dev": "browser-sync start --proxy localhost:8080 --startPath / --serveStatic . --files .",
     "test": "polymer test -l chrome,firefox --expanded",
     "test:chrome": "polymer test -l chrome --expanded",
     "test:firefox": "polymer test -l firefox --expanded",
-    "release": "np --yolo",
-    "prepublish": "empathy publish vo-template.js"
+    "release": "np --yolo"
   },
   "publishConfig": {
     "registry": "http://artifactory-pr-build.lb.cumuli.be:8081/artifactory/api/npm/acd-npm/"
@@ -44,14 +41,12 @@
   },
   "main": "vo-template.js",
   "dependencies": {
-    "@polymer/polymer": "3.1.0",
-    "@polymer/lit-element": "0.6.2",
     "@polymer/iron-demo-helpers": "3.0.2",
     "@polymer/iron-component-page": "4.0.1",
     "@webcomponents/webcomponentsjs": "2.1.3",
-    "vodomg-demo": "milieuinfo/webcomponent-vodomg-demo#v1.0.0",
-    "vo-header": "milieuinfo/webcomponent-vo-header#v1.0.0",
-    "vo-footer": "milieuinfo/webcomponent-vo-footer#v1.0.0",
-    "vo-font": "milieuinfo/webcomponent-vo-font#v1.0.0"
+    "vodomg-litelement": "milieuinfo/webcomponent-vodomg-litelement#v1.0.0",
+    "vo-header": "milieuinfo/webcomponent-vo-header",
+    "vo-footer": "milieuinfo/webcomponent-vo-footer",
+    "vo-font": "milieuinfo/webcomponent-vo-font"
   }
 }
