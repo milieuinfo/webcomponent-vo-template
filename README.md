@@ -10,7 +10,7 @@ npm install --save vo-template
 
 ### Documentatie en demo
 
-[Publicatie van documentatie en demo](https://milieuinfo.github.io/webcomponent-vo-template)
+[Publicatie van documentatie en demo](https://milieuinfo.github.io/webcomponenten-demo)
 
 ## Ontwikkelaars
 
