@@ -45,8 +45,8 @@
     "@polymer/iron-component-page": "4.0.1",
     "@webcomponents/webcomponentsjs": "2.1.3",
     "vodomg-litelement": "milieuinfo/webcomponent-vodomg-litelement#v1.0.0",
-    "vo-header": "milieuinfo/webcomponent-vo-header",
-    "vo-footer": "milieuinfo/webcomponent-vo-footer",
-    "vo-font": "milieuinfo/webcomponent-vo-font"
+    "vo-header": "milieuinfo/webcomponent-vo-header#v1.0.0",
+    "vo-footer": "milieuinfo/webcomponent-vo-footer#v1.0.0",
+    "vo-font": "milieuinfo/webcomponent-vo-font#v1.0.0"
   }
 }
