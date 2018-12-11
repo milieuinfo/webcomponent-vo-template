@@ -33,6 +33,7 @@ class VoTemplate extends LitElement {
 					display: -ms-flexbox;
 			        display: -webkit-flex;
 			        display: flex;
+			        background: #F5F5F5;
 					-ms-flex-direction: column;
 			        -webkit-flex-direction: column;
 			        flex-direction: column;
